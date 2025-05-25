@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Page7-1200</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #eaeaea;
+            font-family: Arial, sans-serif;
+        }
+
+        .page {
+            width: 794px;
+            height: 1123px;
+            background: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            position: relative;
+        }
+
+        .page img {
+            width: 794px;
+            height: 1123px;
+            object-fit: contain;
+            display: block;
+        }
+
+        .input-overlay {
+            position: absolute;
+            left: 70px;
+            top: 154px;
+            width: 336px;
+            height: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            background-color: transparent;
+        }
+
+
+        .mark {
+            left: 67px;
+            width: 14px;
+            height: 14px;
+        }
+
+        .D2-No {
+            top: 521px;
+        }
+
+        .D2-Yes {
+            top: 547px;
+        }
+
+        .D3-No {
+            top: 603px;
+        }
+
+        .D3-Yes {
+            top: 626px;
+        }
+
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .page {
+                box-shadow: none;
+                margin: 0;
+            }
+
+            .input-overlay {
+                border: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <img src="PIX PageImage7.png" alt="Page 2">
+        <input class="input-overlay mark D2-No" type="text">
+        <input class="input-overlay mark D2-Yes" type="text">
+        <input class="input-overlay mark D3-No" type="text">
+        <input class="input-overlay mark D3-Yes" type="text">
+    </div>
+</body>
+
+</html>
